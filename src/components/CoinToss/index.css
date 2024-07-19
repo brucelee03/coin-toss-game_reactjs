@@ -1,0 +1,111 @@
+.bg-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+  font-family: 'Roboto';
+}
+@media (max-width: 576px) {
+  .coin-toss-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 80%;
+  }
+  .heading {
+    font-size: 24px;
+    color: #a35200;
+    font-weight: 600;
+  }
+  .tossing-opt {
+    color: #334155;
+    font-size: 19px;
+    font-weight: 500;
+    margin-top: -4px;
+  }
+  .coin-img {
+    width: 130px;
+  }
+  .toss-button {
+    background-color: #ffda6f;
+    color: #a35200;
+    border-width: 0;
+    font-size: 12px;
+    font-weight: bold;
+    width: 80px;
+    height: 35px;
+    padding: 6px;
+    align-self: center;
+    margin-top: 16px;
+    border-radius: 9px;
+  }
+  .count-toss-container {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 15px;
+    gap: 10px;
+  }
+  .count {
+    color: #475569;
+    font-weight: 500;
+    margin: 5px;
+    font-size: 14px;
+  }
+}
+@media (min-width: 767px) {
+  .coin-toss-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 45%;
+  }
+  .heading {
+    font-size: 55px;
+    color: #a35200;
+    font-weight: 500;
+  }
+  .tossing-opt {
+    color: #334155;
+    font-size: 28px;
+    font-weight: 500;
+  }
+  .coin-img {
+    width: 159px;
+  }
+  .toss-button {
+    background-color: #ffda6f;
+    color: #a35200;
+    border-width: 0;
+    font-size: 14px;
+    font-weight: 600;
+    width: 99px;
+    height: 35px;
+    padding: 6px;
+    align-self: center;
+    margin-top: 16px;
+    border-radius: 9px;
+  }
+  .count-toss-container {
+    display: flex;
+    align-self: center;
+    gap: 50px;
+    margin-top: 28px;
+  }
+  .count {
+    color: #475569;
+    font-weight: 500;
+    font-size: 20px;
+  }
+}
